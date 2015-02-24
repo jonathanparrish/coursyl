@@ -14,3 +14,19 @@
 //= require jquery_ujs
 //= require d3
 //= require_tree .
+
+function hideGradeEntry() {
+  if (document.getElementById("grade_entry") != null){
+    document.getElementById("grade_entry").lastElementChild.style.display = "none";
+  }
+}
+
+function hideGradeEntry() {
+  document.getElementById("hide_button").style.display = "none";
+}
+// function disableButton(obj) {
+//     obj.disabled = true;
+//     setTimeout(function() {
+//         obj.disabled = false;
+//     }, 1000);
+// }​
